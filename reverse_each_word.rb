@@ -29,3 +29,7 @@ def reverse_a_string(string)
   string.reverse
 end
 
+def reverse_a_string(string)
+  string.split.collect {|word| word.reverse}.join(" ")
+end
+
