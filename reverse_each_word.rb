@@ -25,6 +25,6 @@ end
 #   sentence.reverse.split.reverse.join(" ")
 # end
 
-def reverse_string
-  
+def reverse_a_string(string)
+  string.reverse
 end
